@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "jest": {
-    "maxConcurrency" : 2,
+    "maxConcurrency": 2,
     "verbose": true,
     "transform": {
       "^.+\\.[t|j]sx?$": "babel-jest"
@@ -30,17 +30,18 @@
   "author": "Asep Riki",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "mustache-express": "^1.3.2",
     "winston": "^3.7.2",
     "winston-daily-rotate-file": "^4.7.1",
-    "express":"^4.18.1",
-    "cookie-parser":"^1.4.6"
-
+    "express-fileupload":"^1.4.0"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.17.12",
     "@babel/preset-env": "^7.17.12",
     "babel-jest": "^28.1.0",
     "jest": "^28.1.0",
-    "supertest":"^6.2.4"
+    "supertest": "^6.2.4"
   }
 }
